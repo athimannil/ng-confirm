@@ -13,4 +13,5 @@ add `ng-confirm` to the button like this 👇
 <a class="btn btn-primary" ng-confirm ng-click="callme()">Remove</a>
 ```
 
-Additional will add soon 
+Additional details will add soon 
+-----
