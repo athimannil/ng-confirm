@@ -1,11 +1,17 @@
 # ng-confirm
 Confirmation popup AngularJS with Angular UI Bootstrap
 
-usage
+Installation
 -----
 
+#### Bower
+````
+bower install ngconfirm 
+````
+
+#### Insert dependency 
 ```
-angular.module('myApp', ['ngConfirm'......]);
+angular.module('myApp', ['ngConfirm']);
 ```
 
 add `ng-confirm` to the button like this 👇
