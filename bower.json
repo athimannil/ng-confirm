@@ -1,11 +1,11 @@
 {
-  "name": "ng-confirm",
+  "name": "ngconfirm",
   "homepage": "https://github.com/athimannil/ng-confirm",
   "authors": [
     "Muhammed Athimannil <hello@athimannil.com>"
   ],
   "description": "AngularJS dependency for Angular-UI-bootstrap",
-  "main": "",
+  "main": "confirm.js",
   "moduleType": [],
   "license": "MIT",
   "dependencies": {

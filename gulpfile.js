@@ -36,7 +36,7 @@ gulp.task('files', function() {
 gulp.task('connect', function() {
 	connect.server({
 		root: 'public',
-		port: 8000,
+		port: 7000,
 		livereload: true
 	});
 });
@@ -88,6 +88,6 @@ gulp.task('watch', function() {
 });
 
 // gulp.task('install', ['bower', 'fonts', 'images']);
-gulp.task('install', ['files', 'bowerFiles']);
+gulp.task('install', ['files', 'bower', 'bowerFiles']);
 gulp.task('default', ['scripts', 'styles', 'watch', 'connect']);
 
