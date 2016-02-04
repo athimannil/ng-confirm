@@ -71,7 +71,6 @@ gulp.task('watch', function() {
 	gulp.watch(config.sassDir + '/*.scss', ['styles']);
 });
 
-// gulp.task('install', ['bower', 'fonts', 'images']);
 gulp.task('install', ['files', 'bower', 'bowerFiles']);
 gulp.task('default', ['scripts', 'styles', 'watch', 'connect']);
 
