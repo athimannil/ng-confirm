@@ -40,22 +40,6 @@ gulp.task('connect', function() {
 		livereload: true
 	});
 });
-
-// Move font to public folder
-/*gulp.task('fonts', function() {
-    return gulp.src([
-	    	// config.bowerDir + '/bootstrap-sass/assets/fonts/bootstrap/**.*',
-	    	// config.bowerDir + '/font-awesome/fonts/**.*'
-	    	config.fontDir + '/bariol/**.*'
-    	])
-        .pipe(gulp.dest('./public/fonts'));
-});*/
-/*gulp.task('images', function() {
-    return gulp.src([
-	    	config.imageDir + '/**.*'
-    	])
-        .pipe(gulp.dest('./public/img'));
-});*/
 /* One time task end */
 gulp.task('styles', function() {
 	return gulp.src(config.bowerDir+'/bootstrap-sass/assets/stylesheets/_bootstrap.scss')
