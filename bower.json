@@ -1,6 +1,6 @@
 {
   "name": "ngconfirm",
-  "homepage": "https://github.com/athimannil/ngconfirm",
+  "homepage": "https://github.com/athimannil/ng-confirm",
   "authors": [
     "Muhammed Athimannil <hello@athimannil.com>"
   ],
@@ -18,6 +18,5 @@
     "bower_components",
     "test",
     "tests"
-  ],
-  "private": true
+  ]
 }
