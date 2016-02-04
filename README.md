@@ -5,5 +5,5 @@ usage
 -----
 
 ```
-angular.module('myApp', ['ngConfirm',]);
+angular.module('myApp', ['ngConfirm'......]);
 ```
