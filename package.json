@@ -2,7 +2,7 @@
   "name": "ng-confirm",
   "version": "1.0.0",
   "description": "AngularJS ng-confirm dependency for Angular-UI-bootstrap",
-  "main": "confirm.js",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,8 +20,10 @@
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-bower": "0.0.13",
+    "gulp-connect": "^2.3.1",
+    "gulp-flatten": "^0.2.0",
     "gulp-livereload": "^3.8.1",
     "gulp-notify": "^2.2.0",
-    "gulp-sass": "^2.1.1"
+    "gulp-sass": "^2.2.0"
   }
 }

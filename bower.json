@@ -11,5 +11,12 @@
   "dependencies": {
     "angular-bootstrap": "^1.1.2",
     "bootstrap-sass": "^3.3.6"
-  }
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
