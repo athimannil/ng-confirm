@@ -5,7 +5,7 @@
     "Muhammed Athimannil <hello@athimannil.com>"
   ],
   "description": "AngularJS dependency for Angular-UI-bootstrap",
-  "main": "confirm.js",
+  "main": "dist/confirm.js",
   "moduleType": [],
   "license": "MIT",
   "dependencies": {
