@@ -22,6 +22,15 @@ add `ng-confirm` to the button like this 👇
 ```
 <a class="btn btn-primary" ng-confirm ng-click="callfunction()">Remove</a>
 ```
+##### Custom Confirm
+```
+<a class="btn btn-primary" 
+  ng-confirm-title="Custom Title"
+  ng-confirm="Custom delete dialogue"
+  ng-confirm-type="info" // default primary success info warning danger link
+  ng-confirm-button="Remove" // Custom button text
+  ng-click="callme()">Custom Confirm</a>
+```
 
 Demo
 -----
