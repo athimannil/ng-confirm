@@ -7,10 +7,21 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 </head>
 <body>
-  <div class="container">
-    <div class="form-group" ng-app="ui.bootstrap.demo" ng-controller="ModalDemoCtrl">
-      <hr>
-      <a class="btn btn-primary" ng-confirm ng-click="callme()">Remove</a>
+  <div class="container" ng-app="ui.bootstrap.demo" ng-controller="ModalDemoCtrl">
+    <div class="row">
+      <div class="col-md-12 form-group">
+        <h3>Call function after confirmed</h3>
+        <a class="btn btn-primary" ng-confirm ng-click="callme()">Remove</a>
+      </div>
+      <div class="col-md-12 form-group">
+        <h3>Modal window with custom text</h3>
+        <a class="btn btn-primary" 
+          ng-confirm-title="Custom Title"
+          ng-confirm="Custom delete dialogue"
+          ng-confirm-type="info"
+          ng-confirm-button="remove"
+        ng-click="callme()">Custom Confirm</a>
+      </div>
     </div>
   </div>
   <script src="./js/angular.min.js"></script>
