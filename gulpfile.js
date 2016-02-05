@@ -36,7 +36,7 @@ gulp.task('files', function() {
 gulp.task('connect', function() {
 	connect.server({
 		root: 'public',
-		port: 7000,
+		port: 8000,
 		livereload: true
 	});
 });
